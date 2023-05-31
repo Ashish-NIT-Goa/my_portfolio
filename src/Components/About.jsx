@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I am a self-taught Data Analyst, student at the National Institute of Technology Goa. I enjoy solving real-world problems with new technologies and techniques.";
+  "I'm a student at the National Institute of Technology Goa. I have a strong passion for learning and constantly seeking new knowledge. As a self-taught Data Analyst, I am fascinated by the power of data and its potential to drive meaningful insights.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -36,8 +36,7 @@ const skillsList = [
   "Exploratory Data Analysis",
   "PostgreSQL",
   "Python",
-  "Microsoft Excel",
-  "Microsoft Power BI",
+  "Microsoft Excel"
 ];
 
 /**
@@ -46,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "In addition to my studies, I have gained practical experience as a freelancer, specializing in web scraping. This allowed me to hone my skills in data extraction and manipulation, working with various web technologies to gather valuable information.";
 
 const About = () => {
   return (
