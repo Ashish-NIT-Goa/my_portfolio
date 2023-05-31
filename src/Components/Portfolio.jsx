@@ -67,10 +67,10 @@ const Portfolio = () => {
             style={{
               height: "90%",
               width: "100%",
-              objectFit: "cover",
-              animation: "1s ease-out 0s 1 slideInLeft"
+              objectFit: "cover"
             }}
             alt={imageAltText}
+            className="slideInLeft"
           />
         </div>
         <div className="container">

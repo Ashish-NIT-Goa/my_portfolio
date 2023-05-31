@@ -127,11 +127,15 @@ img.socialIcon {
 }
 
 /* Add a slide in animation */
+.slideInLeft {
+  animation: slideInLeft 2s ease-out;
+}
+
 @keyframes slideInLeft {
-  0% {
+  from {
     transform: translateX(-100%);
   }
-  100% {
+  to {
     transform: translateX(0);
   }
 }
