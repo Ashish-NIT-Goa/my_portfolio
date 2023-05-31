@@ -29,7 +29,7 @@ const siteProps = {
   email: "gm.ashishsingh@gmail.com",
   gitHub: "45H15H",
   instagram: "ashishsin9h159",
-  linkedIn: "45h14h",
+  linkedIn: "45h15h",
   medium: "",
   twitter: "",
   youTube: "",
