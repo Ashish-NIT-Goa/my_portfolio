@@ -49,9 +49,9 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Doja Cat Lyrics Dataset: Unveiling the Verses of a Rising Star",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+      "Immerse yourself in the emotional journey of Doja Cat's music with this sentiment analysis dataset.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
