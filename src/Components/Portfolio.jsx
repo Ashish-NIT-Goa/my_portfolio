@@ -39,7 +39,7 @@ const projectList = [
   {
     title: "Valorant Sprays as Stickers: Enhance Your WhatsApp Experience",
     description:
-      "A unique WhatsApp sticker app that brings the vibrant world of Valorant to your conversations! This app showcases a collection of dynamic and eye-catching stickers inspired by the in-game sprays from Valorant, the popular team-based tactical shooter.",
+      "A unique WhatsApp sticker app that brings the vibrant world of Valorant to your conversations! This app showcases a collection of dynamic stickers inspired by the in-game sprays from Valorant.",
     url: "https://github.com/45H15H/WhatsApp_Sticker_App",
   },
   {
