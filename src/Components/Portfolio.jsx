@@ -55,8 +55,9 @@ const projectList = [
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
   {
-    title: "GUI Automation Showcase: Streamlining Workflows through Automated User Interfaces",
-    description: "A collection of practical GUI automation projects",
+    title: "GUI Automation Showcase",
+    description:
+      "Streamlining Workflows through Automated User Interfaces. A collection of practical GUI automation projects.",
     url: "",
   },
 ];
