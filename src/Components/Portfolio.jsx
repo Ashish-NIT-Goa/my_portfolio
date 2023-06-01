@@ -31,16 +31,16 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Scraping TED Talks' transcript",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Scraping the transcript of TED Talks from www.ted.com/talks and visualizing it using WordCloud.",
+    url: "https://github.com/45H15H/Scraping-TED",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Valorant Sprays as Stickers: Enhance Your WhatsApp Experience",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A unique WhatsApp sticker app that brings the vibrant world of Valorant to your conversations! This app showcases a collection of dynamic and eye-catching stickers inspired by the in-game sprays from Valorant, the popular team-based tactical shooter.",
+    url: "https://github.com/45H15H/WhatsApp_Sticker_App",
   },
   {
     title: "My Resume Site",
