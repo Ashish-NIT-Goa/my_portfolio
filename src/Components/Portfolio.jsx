@@ -54,6 +54,11 @@ const projectList = [
       "Immerse yourself in the emotional journey of Doja Cat's music with this sentiment analysis dataset.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
+  {
+    title: "GUI Automation Showcase: Streamlining Workflows through Automated User Interfaces",
+    description: "A collection of practical GUI automation projects",
+    url: "",
+  },
 ];
 
 const Portfolio = () => {
