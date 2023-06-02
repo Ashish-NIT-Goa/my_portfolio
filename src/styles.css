@@ -165,15 +165,30 @@ img.socialIcon {
   }
 }
 
-.card {
+.box {
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+  height: 150px;
+}
+
+.card {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .card img {
   width: 100%;
   height: auto;
   transition: transform 0.5s ease;
+  object-fit: cover;
+  object-position: center;
 }
 
 .card-content {
@@ -181,6 +196,7 @@ img.socialIcon {
   bottom: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   padding: 1rem;
   background-color: rgba(0, 106, 255, 0.5);
   color: white;
