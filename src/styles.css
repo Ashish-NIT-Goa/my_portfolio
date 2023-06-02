@@ -215,3 +215,12 @@ img.socialIcon {
 .card:hover .card-content {
   opacity: 1;
 }
+
+/* for changing the line space between title and description */
+.card-content h3 {
+  margin: 0 0 2px 0;
+}
+
+.card-content p {
+  margin: 0;
+}
