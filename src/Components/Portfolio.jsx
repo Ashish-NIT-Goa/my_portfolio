@@ -35,30 +35,35 @@ const projectList = [
     description:
       "Scraping the transcript of TED Talks from www.ted.com/talks and visualizing it using WordCloud.",
     url: "https://github.com/45H15H/Scraping-TED",
+    image: "images/projects/ted.png",
   },
   {
     title: "Valorant Sprays as Stickers: Enhance Your WhatsApp Experience",
     description:
       "A unique WhatsApp sticker app that brings the vibrant world of Valorant to your conversations! This app showcases a collection of dynamic stickers inspired by the in-game sprays from Valorant.",
     url: "https://github.com/45H15H/WhatsApp_Sticker_App",
+    image: "images/projects/ted.png",
   },
   {
     title: "My Resume Site",
     description:
       "Includes my experience, professional background, skills, and accomplishments.",
     url: "https://ashish-nit-goa.github.io/online-resume/",
+    image: "images/projects/ted.png",
   },
   {
     title: "Doja Cat Lyrics Dataset: Unveiling the Verses of a Rising Star",
     description:
       "Immerse yourself in the emotional journey of Doja Cat's music with this sentiment analysis dataset.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    image: "images/projects/ted.png",
   },
   {
     title: "GUI Automation Showcase",
     description:
       "Streamlining Workflows through Automated User Interfaces. A collection of practical GUI automation projects.",
     url: "",
+    image: "images/projects/ted.png",
   },
 ];
 
@@ -73,19 +78,22 @@ const Portfolio = () => {
             style={{
               height: "90%",
               width: "100%",
-              objectFit: "cover"
+              objectFit: "cover",
+              animation: "1s ease 0s 1 slideInFromLeft"
             }}
             alt={imageAltText}
-            className="slideInLeft"
           />
         </div>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
-              <p className="small">{project.description}</p>
+              <div className="card">
+                <img src={project.image} alt={project.title} />
+                <div className="card-content">
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                </div>
+              </div>
             </div>
           ))}
         </div>
@@ -93,5 +101,4 @@ const Portfolio = () => {
     </section>
   );
 };
-
 export default Portfolio;
