@@ -21,6 +21,8 @@ import React from "react";
  */
 import image from "../images/design-desk.jpeg";
 
+import image_ted from "../images/projects/ted.png";
+
 const imageAltText = "desktop with books and laptop";
 
 /**
@@ -35,35 +37,35 @@ const projectList = [
     description:
       "Scraping the transcript of TED Talks from www.ted.com/talks and visualizing it using WordCloud.",
     url: "https://github.com/45H15H/Scraping-TED",
-    image: "../images/projects/ted.png",
+    image: image_ted,
   },
   {
     title: "Valorant Sprays as Stickers: Enhance Your WhatsApp Experience",
     description:
       "A unique WhatsApp sticker app that brings the vibrant world of Valorant to your conversations! This app showcases a collection of dynamic stickers inspired by the in-game sprays from Valorant.",
     url: "https://github.com/45H15H/WhatsApp_Sticker_App",
-    image: "../images/projects/ted.png",
+    image: image_ted,
   },
   {
     title: "My Resume Site",
     description:
       "Includes my experience, professional background, skills, and accomplishments.",
     url: "https://ashish-nit-goa.github.io/online-resume/",
-    image: "../images/projects/ted.png",
+    image: image_ted,
   },
   {
     title: "Doja Cat Lyrics Dataset: Unveiling the Verses of a Rising Star",
     description:
       "Immerse yourself in the emotional journey of Doja Cat's music with this sentiment analysis dataset.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-    image: "../images/projects/ted.png",
+    image: image_ted,
   },
   {
     title: "GUI Automation Showcase",
     description:
       "Streamlining Workflows through Automated User Interfaces. A collection of practical GUI automation projects.",
     url: "",
-    image: "../images/projects/ted.png",
+    image: image_ted,
   },
 ];
 
