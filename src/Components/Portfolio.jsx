@@ -92,8 +92,8 @@ const Portfolio = () => {
               <div className="card">
                 <img src={project.image} alt={project.title} />
                 <div className="card-content">
-                  <h3>{project.title}</h3>
-                  <p>{project.description}</p>
+                  <h3 style={{ fontSize: "1.2rem" }}>{project.title}</h3>
+                  <p style={{ fontSize: "0.9rem" }}>{project.description}</p>
                 </div>
               </div>
             </div>
