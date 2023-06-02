@@ -182,19 +182,20 @@ img.socialIcon {
   left: 0;
   width: 100%;
   padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  transform: translateY(100%);
-  transition: transform 0.5s ease;
+  background-color: rgba(0, 106, 255, 0.5);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.5s ease;
   box-sizing: border-box; /* Add this line */
   font-size: 1rem; /* Add this line */
   line-height: 1.5; /* Add this line */
 }
+
 
 .card:hover img {
   transform: scale(1.1);
 }
 
 .card:hover .card-content {
-  transform: translateY(0);
+  opacity: 1;
 }
