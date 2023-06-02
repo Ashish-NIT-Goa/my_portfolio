@@ -45,8 +45,8 @@ const projectList = [
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Includes my experience, professional background, skills, and accomplishments.",
+    url: "https://ashish-nit-goa.github.io/online-resume/",
   },
   {
     title: "Doja Cat Lyrics Dataset: Unveiling the Verses of a Rising Star",
