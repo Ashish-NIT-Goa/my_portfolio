@@ -25,6 +25,9 @@ import React from "react";
 // const imageAltText = "desktop with books and laptop";
 
 import image_ted from "../images/projects/ted.png";
+import image_valorant from "../images/projects/8-bit_VALORANT_Spray.png";
+import image_resume from "../images/projects/resume.png";
+import image_automation from "../images/projects/automation.png";
 
 /**
  * Project list
@@ -45,13 +48,13 @@ const projectList = [
     description:
       "A unique WhatsApp sticker app that brings the vibrant world of Valorant to your conversations! This app showcases a collection of dynamic stickers inspired by the in-game sprays from Valorant.",
     url: "https://github.com/45H15H/WhatsApp_Sticker_App",
-    image: image_ted,
+    image: image_valorant,
   },
   {
     title: "My Resume Site",
     description: "Includes my experience, professional background, skills, and accomplishments.",
     url: "https://ashish-nit-goa.github.io/online-resume/",
-    image: image_ted,
+    image: image_resume,
   },
   {
     title: "Doja Cat Lyrics Dataset: Unveiling the Verses of a Rising Star",
@@ -65,7 +68,7 @@ const projectList = [
     description:
       "Streamlining Workflows through Automated User Interfaces. A collection of practical GUI automation projects.",
     url: "",
-    image: image_ted,
+    image: image_automation,
   },
 ];
 
