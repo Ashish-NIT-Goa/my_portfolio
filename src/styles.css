@@ -214,6 +214,11 @@ img.socialIcon {
 
 .card:hover .card-content {
   opacity: 1;
+  /* keep content in middle */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* for changing the line space between title and description */
