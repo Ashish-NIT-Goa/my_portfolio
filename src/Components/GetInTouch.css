@@ -1,0 +1,56 @@
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "apple-system", "BlinkMacSystemFont", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    color: #162871;
+  }
+
+  .form-input, .form-textarea {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-color: #bfd1ff;
+    box-sizing: border-box;
+  }
+  
+  .form-submit {
+    background-color: #5988ff;
+    color: white;
+    padding: 13px 200px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "apple-system", "BlinkMacSystemFont", Arial, sans-serif;
+    width: 100%;
+    text-align: center !important;
+    /* margin-top: 10px; */
+    /* margin-bottom: 20px; */
+    box-sizing: border-box;
+  }
+
+  .form-container {
+    padding: 30px 30px 30px 30px;
+    border-style: solid;
+    border: 2px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    border-color: white;
+    border-width: 1px 1px 1px 1px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.18);
+    margin: 40px auto;
+    max-width: 400px;
+    max-height: 500px;
+  }
+
+  .form-required {
+    color: red;
+    margin-left: 5px;
+  }
