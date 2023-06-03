@@ -13,6 +13,7 @@ import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
+import GetInTouch from "./Components/GetInTouch";
 
 /**
  * This object represents your information. The project is set so that you
@@ -45,6 +46,7 @@ const App = () => {
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
+      <GetInTouch />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
