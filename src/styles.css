@@ -234,7 +234,7 @@ img.socialIcon {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
 
