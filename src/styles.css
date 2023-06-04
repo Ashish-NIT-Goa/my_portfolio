@@ -35,7 +35,7 @@ section.padding {
   padding: 5rem 0;
 }
 
-section img.background {
+/* section img.background {
   height: 100%;
   left: 50%;
   object-fit: cover;
@@ -45,6 +45,30 @@ section img.background {
   transform: translate(-50%, 0);
   width: 100vmax;
   z-index: -1;
+} */
+
+.home-background {
+    height: 100%;
+    left: 50%;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, 0);
+    width: 100vmax;
+    z-index: -1;
+  }
+
+.about-background {
+    height: 100%;
+    left: 50%;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, 0);
+    width: 100vmax;
+    z-index: -1;
 }
 
 h1 {
@@ -157,6 +181,8 @@ img.socialIcon {
 
 /* animate the scroll down arrow in your Home component to bounce up and down on my page. */
 .bounce {
+  height: 3rem;
+  width: 3rem;
   animation: bounce 2s infinite;
 }
 @keyframes bounce {
@@ -252,3 +278,10 @@ img.socialIcon {
 #portfolio {
   padding-bottom: 0px;
 }
+
+/* add responsivness */
+/* @media screen and (max-width: 600px) {
+  #about {
+  margin-top: -10rem; /* adjust the margin-top value to reduce the gap
+  }
+} */
