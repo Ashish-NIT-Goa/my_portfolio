@@ -61,3 +61,29 @@
     color: red;
     margin-left: 5px;
   }
+
+  /* responsive styles */
+@media screen and (max-width: 600px) {
+  .form-container {
+    max-width: 60%;
+    max-height: none;
+  }
+
+  .form-label {
+    font-size: 15px;
+  }
+
+  .form-input, .form-textarea {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+
+  .form-submit {
+    font-size: 13px;
+  }
+
+}
