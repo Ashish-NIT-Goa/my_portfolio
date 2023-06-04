@@ -26,7 +26,7 @@ import "./Portfolio.css";
 // const imageAltText = "desktop with books and laptop";
 
 import image_ted from "../images/projects/ted.png";
-import image_valorant from "../images/projects/8-bit_VALORANT_Spray.png";
+import image_valorant from "../images/projects/valorant.jpg";
 import image_resume from "../images/projects/resume.png";
 import image_automation from "../images/projects/automation.png";
 
