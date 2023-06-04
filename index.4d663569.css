@@ -234,6 +234,56 @@ img.socialIcon {
   padding-bottom: 0;
 }
 
+.about-container {
+  width: 50%;
+  text-align: center;
+  background-color: #fff;
+  margin: 3rem auto;
+  padding: 4rem;
+}
+
+.about-container ul {
+  text-align: left;
+  columns: 2;
+  gap: 3rem;
+  margin: 2rem 3rem;
+  font-size: 1.25rem;
+}
+
+.about-quote {
+  padding: 1rem 3rem 0;
+}
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    width: 60%;
+    padding: 2rem;
+  }
+
+  .about-container ul {
+    columns: 1;
+    margin: 1rem 0;
+    font-size: .8rem;
+  }
+
+  .about-container p {
+    padding: 1rem 0 0;
+  }
+
+  p.large {
+    font-size: 16px;
+  }
+
+  .about-quote {
+    font-size: .75rem;
+  }
+
+  .background {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .footer-container {
   width: 100vw;
   background-color: #4e567e;
