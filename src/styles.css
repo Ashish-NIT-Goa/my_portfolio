@@ -241,10 +241,14 @@ img.socialIcon {
 /* for changing the line space between title and description */
 .card-content h3 {
   margin: 0 0 2px 0;
-  
+
   text-decoration: none;
 }
 
 .card-content p {
   margin: 0;
+}
+
+#portfolio {
+  padding-bottom: 0px;
 }
