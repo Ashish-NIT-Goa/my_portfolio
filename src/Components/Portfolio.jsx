@@ -27,7 +27,7 @@ import "./Portfolio.css";
 
 import image_ted from "../images/projects/ted.png";
 import image_valorant from "../images/projects/valorant.jpg";
-import image_resume from "../images/projects/resume.png";
+import image_resume from "../images/projects/resume.jpg";
 import image_automation from "../images/projects/automation.png";
 
 /**
