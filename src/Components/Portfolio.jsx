@@ -44,9 +44,9 @@ const projectList = [
     image: image_ted,
   },
   {
-    title: "Valorant Sprays as Stickers: Enhance Your WhatsApp Experience",
+    title: "Valorant Sprays as Stickers",
     description:
-      "A unique WhatsApp sticker app that brings the vibrant world of Valorant to your conversations! This app showcases a collection of dynamic stickers inspired by the in-game sprays from Valorant.",
+      "A unique WhatsApp sticker app that brings the vibrant world of Valorant to your conversations!",
     url: "https://github.com/45H15H/WhatsApp_Sticker_App",
     image: image_valorant,
   },
@@ -57,17 +57,16 @@ const projectList = [
     image: image_resume,
   },
   {
-    title: "Doja Cat Lyrics Dataset: Unveiling the Verses of a Rising Star",
+    title: "Doja Cat Lyrics Dataset",
     description:
       "Immerse yourself in the emotional journey of Doja Cat's music with this sentiment analysis dataset.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    url: "https://www.kaggle.com/datasets/ashish51ngh/doja-cat-lyrics",
     image: image_ted,
   },
   {
     title: "GUI Automation Showcase",
-    description:
-      "Streamlining Workflows through Automated User Interfaces. A collection of practical GUI automation projects.",
-    url: "",
+    description: "A collection of practical GUI automation projects.",
+    url: "https://github.com/45H15H/GUI-Automation/",
     image: image_automation,
   },
 ];
