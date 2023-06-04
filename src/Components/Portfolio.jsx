@@ -96,7 +96,9 @@ const Portfolio = () => {
                 <img src={project.image} alt={project.title} />
                 <div className="card-content">
                   <h3 style={{ fontWeight: "bold", fontSize: "16px", fontFamily: "Arial" }}>
-                    {project.title}
+                    <a href={project.url} target="_blank" rel="noopener noreferrer">
+                      {project.title}
+                    </a>
                   </h3>
                   <p style={{ fontSize: "16px", fontFamily: "Arial" }}>{project.description}</p>
                 </div>
