@@ -31,7 +31,7 @@ section.padding {
   padding: 5rem 0;
 }
 
-section img.background {
+.home-background, .about-background {
   height: 100%;
   object-fit: cover;
   pointer-events: none;
@@ -147,6 +147,8 @@ img.socialIcon {
 }
 
 .bounce {
+  height: 3rem;
+  width: 3rem;
   animation: bounce 2s infinite;
 }
 
@@ -316,6 +318,52 @@ img.socialIcon {
   img.socialIcon {
     height: 20px;
     width: 20px;
+  }
+}
+
+.name-title {
+  width: 40rem;
+  text-align: center;
+  position: absolute;
+  top: 15rem;
+  left: 2rem;
+}
+
+.arrow-down {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .home-background {
+    width: 100%;
+    height: auto;
+    content: url("portrait-girl-with-laptop.ccb74349.jpg");
+  }
+
+  .name-title {
+    width: auto;
+    text-align: left;
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+  }
+
+  .name-title h1 {
+    margin-bottom: -1rem;
+    font-size: 2.5rem;
+  }
+
+  .name-title h2 {
+    text-align: center;
+    margin-top: .5rem;
+    font-size: .8rem;
+  }
+
+  .bounce {
+    height: 1.5rem;
+    width: 1.5rem;
   }
 }
 

@@ -27213,7 +27213,7 @@ const About = ()=>{
         id: "about",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "background",
+                className: "about-background",
                 src: (0, _whiteKeyboardBgJpgDefault.default),
                 alt: imageAltText
             }, void 0, false, {
@@ -28602,6 +28602,7 @@ var _downArrowSvg = require("../images/down-arrow.svg");
 var _downArrowSvgDefault = parcelHelpers.interopDefault(_downArrowSvg);
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
+var _homeCss = require("./Home.css");
 /**
  * Home background image
  *
@@ -28614,6 +28615,7 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  * freely use on your site.
  */ var _womanWithTabletJpg = require("../images/woman-with-tablet.jpg");
 var _womanWithTabletJpgDefault = parcelHelpers.interopDefault(_womanWithTabletJpg);
+// import portraitImage from "../images/portrait-girl-with-laptop.jpg";
 const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28621,71 +28623,57 @@ const Home = ({ name , title  })=>{
         className: "min-height",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "background",
+                className: "home-background",
                 src: (0, _womanWithTabletJpgDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 30,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    position: "absolute",
-                    top: "15rem",
-                    left: "2rem",
-                    width: "40rem",
-                    textAlign: "center"
-                },
+                className: "name-title",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 40,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 41,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 31,
+                lineNumber: 34,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    position: "absolute",
-                    bottom: "3rem",
-                    left: "50%"
-                },
+                className: "arrow-down",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _downArrowSvgDefault.default),
-                    style: {
-                        height: "3rem",
-                        width: "3rem"
-                    },
                     alt: imageAltText,
                     className: "bounce"
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 44,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 43,
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 29,
+        lineNumber: 32,
         columnNumber: 5
     }, undefined);
 };
@@ -28707,13 +28695,13 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/woman-with-tablet.jpg":"bEltf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/woman-with-tablet.jpg":"bEltf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Home.css":"cnisp"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"bEltf":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "woman-with-tablet.b3bf1156.jpg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
+},{"./helpers/bundle-url":"lgJ39"}],"cnisp":[function() {},{}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28747,10 +28735,10 @@ var _portfolioCss = require("./Portfolio.css");
 // const imageAltText = "desktop with books and laptop";
 var _tedPng = require("../images/projects/ted.png");
 var _tedPngDefault = parcelHelpers.interopDefault(_tedPng);
-var _8BitVALORANTSprayPng = require("../images/projects/8-bit_VALORANT_Spray.png");
-var _8BitVALORANTSprayPngDefault = parcelHelpers.interopDefault(_8BitVALORANTSprayPng);
-var _resumePng = require("../images/projects/resume.png");
-var _resumePngDefault = parcelHelpers.interopDefault(_resumePng);
+var _valorantJpg = require("../images/projects/valorant.jpg");
+var _valorantJpgDefault = parcelHelpers.interopDefault(_valorantJpg);
+var _resumeJpg = require("../images/projects/resume.jpg");
+var _resumeJpgDefault = parcelHelpers.interopDefault(_resumeJpg);
 var _automationPng = require("../images/projects/automation.png");
 var _automationPngDefault = parcelHelpers.interopDefault(_automationPng);
 /**
@@ -28769,13 +28757,13 @@ var _automationPngDefault = parcelHelpers.interopDefault(_automationPng);
         title: "Valorant Sprays as Stickers",
         description: "A unique WhatsApp sticker app that brings the vibrant world of Valorant to your conversations!",
         url: "https://github.com/45H15H/WhatsApp_Sticker_App",
-        image: (0, _8BitVALORANTSprayPngDefault.default)
+        image: (0, _valorantJpgDefault.default)
     },
     {
         title: "My Resume Site",
         description: "Includes my experience, professional background, skills, and accomplishments.",
         url: "https://ashish-nit-goa.github.io/online-resume/",
-        image: (0, _resumePngDefault.default)
+        image: (0, _resumeJpgDefault.default)
     },
     {
         title: "Doja Cat Lyrics Dataset",
@@ -28905,19 +28893,19 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/projects/ted.png":"anuuf","../images/projects/8-bit_VALORANT_Spray.png":"imQda","../images/projects/resume.png":"35AwS","../images/projects/automation.png":"apM8P","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Portfolio.css":"a3pyr"}],"anuuf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/projects/ted.png":"anuuf","../images/projects/automation.png":"apM8P","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Portfolio.css":"a3pyr","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1"}],"anuuf":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ted.09da28c7.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"imQda":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "8-bit_VALORANT_Spray.9e6aa16a.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"35AwS":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "resume.72feb4df.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"apM8P":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "automation.743c5f85.png" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"a3pyr":[function() {},{}],"lW6qc":[function() {},{}],"hqLjq":[function(require,module,exports) {
+},{"./helpers/bundle-url":"lgJ39"}],"a3pyr":[function() {},{}],"dCgaW":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "valorant.d76ac0c6.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"einl1":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "resume.42da34cb.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"hqLjq":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2eaf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
