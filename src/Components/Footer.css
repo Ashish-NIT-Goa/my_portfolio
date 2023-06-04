@@ -1,0 +1,36 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 5rem 0 3rem;
+    background-color: #4E567E;
+    width: 100vw;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/* responsive styles */
+@media screen and (max-width: 600px) {
+    .social-icons {
+      flex-wrap: wrap;
+      max-width: 800px;
+      /* gap: 1rem; */
+    }
+
+    .footer-container {
+        height: 15px; /* adjust the height as needed */
+        gap: 1.0rem;
+    }
+
+    img.socialIcon {
+        height: 20px;
+        width: 20px;
+      }
+}
