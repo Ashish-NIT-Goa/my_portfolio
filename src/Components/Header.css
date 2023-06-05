@@ -2,6 +2,7 @@
     position: fixed;
     display: flex;
     justify-content:center;
+    text-align: justify;
     gap: 2rem;
     background: rgba(255,255,255,0.75);
     padding: 1rem;
