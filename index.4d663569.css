@@ -344,11 +344,11 @@ img.socialIcon {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: .8rem;
+    padding: 1rem .5rem;
   }
 
   .nav-bar a {
-    font-size: .75rem;
+    font-size: 1rem;
   }
 }
 
@@ -400,7 +400,7 @@ img.socialIcon {
 
   .arrow-down {
     position: absolute;
-    bottom: 2rem;
+    bottom: 4rem;
     left: 45.9%;
   }
 }
@@ -416,7 +416,7 @@ img.socialIcon {
   }
 
   .box {
-    width: 65%;
+    width: 75%;
   }
 }
 
@@ -479,21 +479,21 @@ img.socialIcon {
 
 @media screen and (max-width: 600px) {
   .form-container {
-    max-width: 60%;
+    max-width: 75%;
     max-height: none;
   }
 
   .form-label {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .form-input, .form-textarea {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
-    padding: 5px;
+    padding: 7px;
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .form-submit {

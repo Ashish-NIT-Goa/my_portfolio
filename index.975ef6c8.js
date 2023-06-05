@@ -28540,7 +28540,7 @@ const Header = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#footer",
+                href: "#get-in-touch",
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
