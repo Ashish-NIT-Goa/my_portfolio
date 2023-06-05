@@ -1,0 +1,26 @@
+.nav-bar {
+    position: fixed;
+    display: flex;
+    justify-content:center;
+    gap: 2rem;
+    background: rgba(255,255,255,0.75);
+    padding: 1rem;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* responsive styles */
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 90vw;
+    gap: 1rem;
+  }
+  .nav-bar a {
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+  }
+}
