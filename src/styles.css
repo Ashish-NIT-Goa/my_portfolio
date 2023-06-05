@@ -285,3 +285,12 @@ img.socialIcon {
   margin-top: -10rem; /* adjust the margin-top value to reduce the gap
   }
 } */
+
+/* @media screen and (max-width: 600px) {
+  #about {
+  margin-top: -1rem; /* adjust the margin-top value to reduce the gap
+  }
+} */
+/* #about {
+  min-height: calc(100vh - 100%);
+} */
