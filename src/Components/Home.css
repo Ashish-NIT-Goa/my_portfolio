@@ -50,9 +50,11 @@
     }
     
     .arrow-down {
-        /* position: absolute; */
-        bottom: 6rem;
+        position: absolute;
+        bottom: 3rem; /* fix button down position */
         /* left: 50%; */
         left: 45.9%;
+        /* transform: translateX(-50%); */
+        /* top: -5rem; remove the top property */
     }
 }
