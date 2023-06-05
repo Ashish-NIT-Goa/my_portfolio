@@ -11,7 +11,9 @@
 .arrow-down {
     position: absolute;
     bottom: 3rem;
-    left: 50%;
+    /* justify-content: center; */
+    left: 48%;
+    /* transform: translateX(-50%); */
 }
 
 /* responsive styles */
@@ -51,7 +53,6 @@
         /* position: absolute; */
         bottom: 6rem;
         /* left: 50%; */
-        justify-content: center;
-        margin: 2rem auto 0;
+        left: 46%;
     }
 }
