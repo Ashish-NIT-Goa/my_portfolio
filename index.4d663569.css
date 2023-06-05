@@ -396,6 +396,12 @@ img.socialIcon {
     height: 2rem;
     width: 2rem;
   }
+
+  .arrow-down {
+    justify-content: center;
+    margin: 2rem auto 0;
+    bottom: 6rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
