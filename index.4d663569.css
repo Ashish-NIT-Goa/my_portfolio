@@ -362,7 +362,7 @@ img.socialIcon {
 .arrow-down {
   position: absolute;
   bottom: 3rem;
-  left: 50%;
+  left: 48%;
 }
 
 @media screen and (max-width: 600px) {
@@ -398,9 +398,8 @@ img.socialIcon {
   }
 
   .arrow-down {
-    justify-content: center;
-    margin: 2rem auto 0;
     bottom: 6rem;
+    left: 46%;
   }
 }
 
