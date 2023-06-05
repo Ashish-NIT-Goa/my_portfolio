@@ -19,7 +19,7 @@
     .home-background {
         width: 100%;
         height: auto;
-        /* max-height: 100px; */
+        max-width: 100vw;
         content: url("../images/portrait-girl-with-laptop.jpg");
       }
 
