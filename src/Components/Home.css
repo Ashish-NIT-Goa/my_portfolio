@@ -20,30 +20,30 @@
         width: 100%;
         height: auto;
         max-width: 100vw;
-        content: url("../images/portrait-girl-with-laptop.jpg");
+        content: url("../images/portrait-girl.jpg");
       }
 
     .name-title {
         position: absolute;
-        top: 8rem;
+        top: 15rem;
         left: 1rem;
         width: auto;
         text-align: left;
     }
 
     .name-title h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin-bottom: -1rem;
     }
 
     .name-title h2 {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-top: 0.5rem;
         text-align: center;
     }
 
     .bounce {
-        height: 1.5rem;
-        width: 1.5rem;
+        height: 2rem;
+        width: 2rem;
     }
 }
